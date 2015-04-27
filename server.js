@@ -2,6 +2,8 @@
  * Created by Yogi on 4/26/2015.
  */
 
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 var express = require('./config/express');
 var app = express();
 
